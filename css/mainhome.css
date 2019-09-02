@@ -1,0 +1,197 @@
+/* 首页的左侧 样式 */
+
+
+/* main 部分 */
+
+.main {
+    position: relative;
+}
+
+.main .title {
+    height: 50px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.main .title #in_city {
+    top: 30px !important;
+    left: 174px !important;
+}
+
+.main .title #in_city .screen a:hover {
+    background-color: #ccc;
+}
+
+.main .title #in_city .city_pos a:hover {
+    color: blue;
+}
+
+.main .title>a {
+    margin: 8px 0 0 10px;
+    color: #669;
+    font-size: 14px;
+}
+
+
+/* main-l 部分 */
+
+.main .main-l {
+    width: 675px;
+    /* height: 1000px; */
+    position: relative;
+}
+
+.main .main-l .adv::before {
+    position: absolute;
+    content: '公告';
+    color: #fff;
+    right: 5px;
+    top: 84px;
+    font-size: 14px;
+}
+
+.main .main-l .nowplaying h4 {
+    height: 50px;
+    border-bottom: 1px solid #eee;
+    padding-top: 20px;
+    color: #072;
+}
+
+.main .main-l .nowplaying ul {}
+
+.main .main-l .nowplaying ul li {
+    float: left;
+    width: 115px;
+    margin-left: 25px;
+    padding: 10px 0;
+    height: 261px;
+}
+
+.main .main-l .nowplaying ul li:nth-of-type(5n -4) {
+    margin-left: 0;
+}
+
+.main .main-l .nowplaying ul li img {
+    height: 160px;
+    width: 100%;
+}
+
+.main .main-l .nowplaying ul li>p {
+    width: 100%;
+    color: #333;
+    padding: 10px 4px 6px;
+    height: 30px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.main .main-l .nowplaying ul li>span:nth-of-type(1) {
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url('../imgs/ic_rating_s.png') no-repeat;
+    margin-left: 16px;
+}
+
+.main .main-l .nowplaying ul li>span:nth-of-type(2) {
+    font-size: 12px;
+    color: #e09015;
+}
+
+.main .main-l .nowplaying ul li>input {
+    width: 90px;
+    height: 25px;
+    background-color: #F5F3FD;
+    font-size: 14px;
+    margin: 5px 0 0 12px;
+}
+
+.main .main-l .nowplaying>a {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: #f5f5f5;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.main .main-l .nowplaying>a:hover {
+    background-color: #eee;
+}
+
+
+/* 即将上映 */
+
+.main .main-l .upcoming {
+    position: relative;
+}
+
+.main .main-l .upcoming h4 {
+    height: 50px;
+    border-bottom: 1px solid #eee;
+    padding-top: 20px;
+    color: #072;
+}
+
+.main .main-l .upcoming>a {
+    color: #666699;
+    position: absolute;
+    top: 24px;
+    left: 80px;
+}
+
+.main .main-l .upcoming>a:hover {
+    color: #fff;
+    background: #37a;
+}
+
+.main .main-l .upcoming ul {}
+
+.main .main-l .upcoming ul li {
+    float: left;
+    width: 115px;
+    margin-left: 25px;
+    padding: 10px 0;
+    height: 261px;
+}
+
+.main .main-l .upcoming ul li:nth-of-type(5n -4) {
+    margin-left: 0;
+}
+
+.main .main-l .upcoming ul li img {
+    height: 160px;
+    width: 100%;
+}
+
+.main .main-l .upcoming ul li>p {
+    width: 100%;
+    color: #333;
+    padding: 10px 4px 6px;
+    height: 30px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.main .main-l .upcoming ul li>span {
+    display: inline-block;
+    width: 100%;
+    height: 11px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.main .main-l .upcoming ul li>input {
+    width: 90px;
+    height: 25px;
+    background-color: #F5F3FD;
+    font-size: 14px;
+    margin: 5px 0 0 12px;
+}

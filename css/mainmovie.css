@@ -1,0 +1,70 @@
+/* 影评左侧样式 */
+
+.main .movie {
+    margin-top: 50px;
+}
+
+.main .movie>ul {
+    width: 680px;
+    padding: 30px 0;
+    display: flex;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+}
+
+.main .movie .welcome {
+    width: 680px;
+}
+
+.main .movie .now {
+    display: none;
+}
+
+.main .movie .welcome>ul {
+    padding-top: 10px;
+}
+
+.main .movie .welcome>ul>li {
+    widows: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.main .movie .welcome>ul>li~li {
+    border-top: 1px dashed #ccc;
+}
+
+.main .movie .welcome>ul>li>img {
+    width: 76px;
+    height: 106px;
+}
+
+.main .movie .welcome>ul>li>.articl {
+    padding-left: 20px;
+}
+
+.main .movie .welcome>ul>li>.articl p {
+    font-size: 14px;
+    height: 62px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.main .movie .welcome>ul>li span:nth-of-type(1) {
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url('../imgs/ic_rating_s.png') no-repeat;
+}
+
+.main .movie .welcome>ul>li span:nth-of-type(2) {
+    font-size: 14px;
+}
+
+#info {
+    display: none;
+}
